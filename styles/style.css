@@ -1,0 +1,145 @@
+body {
+    overflow-x: hidden;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+.slick-prev {
+    left: 15px;
+    z-index: 15;
+    transform: scale(2);
+    /* border: solid 1px #076BFF; */
+    /* border-radius: 50%; */
+}
+
+.slick-next {
+    right: 15px;
+    z-index: 15;
+    transform: scale(2);
+}
+
+/* .carousel-control-prev-icon {
+    background-image: url(../img/left.png)
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/right.png)
+} */
+
+.height68 {
+    height: 68px;
+}
+
+.ui-widget-content {
+    max-width: 856px;
+    border: none;
+}
+
+.width636 {
+    max-width: 636px;
+}
+
+.width856 {
+    max-width: 856px;
+}
+
+.ui-icon-triangle-1-e {
+    background-position: 0 0;
+    position: absolute;
+    right: 30px;
+    transform: scale(2);
+}
+
+.ui-icon-triangle-1-s {
+    background-position: -65px 0;
+    position: absolute;
+    right: 30px;
+    transform: scale(2);
+}
+
+#thank_you {
+    text-align: center;
+    display: none;
+}
+
+.hvr-outline-out:before {
+    content: '';
+    position: absolute;
+    border-radius: 12px;
+    border: #076BFF solid 3px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition-duration: .3s;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+/* 
+#img_1 {
+    background-image: url('../img/baner1.png');
+    height: 78vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#img_2 {
+    background-image: url('../img/baner2.png');
+    height: 78vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#img_3 {
+    background-image: url('../img/baner3.png');
+    height: 78vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* .slick-prev {
+    left: 20px;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.btn {
+    --bs-btn-padding-x: 2.75rem;
+}
+
+.answers {
+    margin-bottom: 50px;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+.element.style {
+    height: 68px;
+}
+
+.ui-icon-triangle-1-e {
+    background-position: 0 0;
+    position: absolute;
+    right: 30px;
+}
+
+.ui-icon-triangle-1-s {
+    background-position: -65px 0;
+    position: absolute;
+    right: 30px;
+}
+
+#thank_you {
+    text-align: center;
+    display: none;
+} */
